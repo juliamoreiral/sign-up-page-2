@@ -25,9 +25,9 @@
         </div>
         <div class="slider-dots">
             <div id="left-dot"></div>
-            <div id="center-dot">
-                <div></div>
-                <div></div>
+            <div class="slider-dots-center">
+                <div id="semicircle"></div>
+                <div id="center-dot"></div>
             </div>
             <div id="right-dot"></div>
         </div>
@@ -69,14 +69,14 @@
                         <input id="confirm-password" type="password" name="confirm-password" required>
                     </div>
                 </div>
-                <div id="checkbox-group">
-                    <div class="checkbox">
-                        <input type="checkbox" name="remember-me" id="remember-me">
+                <div class="checkbox-group">
+                    <div class="remember-me">
                         <label for="remember-me">Remember me</label>
+                        <input type="checkbox" name="remember-me" id="remember-me">
                     </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="terms" id="terms">
+                    <div class="terms">>
                         <label for="terms">I agree to all the <a href="#">Terms</a> and <a href="#">Privacy policy</a></label>
+                        <input type="checkbox" name="terms" id="terms">
                     </div>
                 </div>
                 <div>
@@ -88,8 +88,8 @@
                 </div>
             </form>
         </div>
-        <div>
-            <p>Already have an account? <a href="#">Log in</a></p>
+        <div class="log-in">
+            <p>Already have an account? <a href="#">Log In</a></p>
         </div>
     </div>
 </body>
