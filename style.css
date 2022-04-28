@@ -13,6 +13,11 @@ html, body {
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: #007AFF;
+}
+
 .left {
     display: flex;
     position: absolute;
@@ -230,19 +235,41 @@ html, body {
     width: 527.79px;
     height: 299.17px;
     top: 163.70px;
+    font: normal 400 9.87838px 'Poppins';
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #2D3748;
 }
 
 .input-group {
     position: absolute;
     width: 527.79px;
     height: 186.17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.checkbox-group {
-    font: normal 400 9.87838px 'Poppins';
-    line-height: 140%;
-    letter-spacing: -0.02em;
-    color: #2D3748;
+.input-box {
+    width: 252.6px;
+    height: 50.69px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.input-box > input {
+    position: static;
+    width: 252.6px;
+    height: 33.87px;
+    left: 0px;
+    top: 16.82px;
+    border-width: 0.71px;
+    border-radius: 3px;
+    border-color: #D1D1D1;
+    margin: 2.82239px 0px;
 }
 
 .remember-me {
@@ -267,7 +294,7 @@ html, body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 8.46718px;
+    margin-right: 8.46718px;
 }
 
 .remember-me > label {
@@ -278,8 +305,83 @@ html, body {
     bottom: 0.4%;
     flex: none;
     order: 1;
+    flex-grow: 0
+}
+
+.terms {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 220.58px;
+    height: 14.11px;
+    top: 228.61px;
+}
+
+.terms > input {
+    position: static;
+    left: 0%;
+    right: 85.08%;
+    top: 0%;
+    bottom: 0%;
+    border: 0.705598px solid #D1D1D1;
+    border-radius: 1.4112px;
+    flex: none;
+    order: 0;
     flex-grow: 0;
-    margin: 0px 8.46718px;
+    margin-right: 8.46718px;
+}
+
+.terms > label {
+    position: static;
+    left: 23.87%;
+    right: 0%;
+    top: 0.4%;
+    bottom: 0.4%;
+    flex: none;
+    order: 1;
+    flex-grow: 0
+}
+
+.forgot-password > p { 
+    position: absolute;
+    width: 86px;
+    height: 14px;
+    top: 203.21px;
+    left: 433.21px;
+    bottom: 81.96px;
+}
+
+button {
+    position: absolute;
+    width: 252.6px;
+    height: 33.87px;
+    top: 265.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font: normal 400 9.87838px 'Poppins';
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    border-radius: 3px;
+    border-width: 0px;
+}
+
+button > a {
+    color: #FFFFFF;
+}
+
+.login-button > button {
+    position: absolute;
+    background-color: #007AFF;
+}
+
+.google-button > button {
+    position: absolute;
+    left: 275.18px;
+    background-color: #2D3748;
 }
 
 .log-in > p {
