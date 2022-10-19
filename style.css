@@ -9,8 +9,7 @@
 }
 
 html, body {
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -22,8 +21,8 @@ a {
 .left {
     display: flex;
     position: absolute;
-    width: 574.36px;
-    height: 675.96px;
+    width: 45%;
+    height: 100vh;
     background-image: linear-gradient(#0F70DA, #007aFF)
 }
 
@@ -156,8 +155,8 @@ a {
 .right {
     display: flexbox;
     position: absolute;
-    width: 527.79px;
-    height: 608.23px;
+    width: 65%;
+    height: 100vh;
     left: 688.67px;
     top: 44.81px;
 }
